@@ -22,4 +22,10 @@ function palindrome(str) {
 
 }
 
+function palindrome2(string) {
+    const reversed = string.split('').reverse().join('');
+
+    return string === reversed; 
+}
+
 module.exports = palindrome;
